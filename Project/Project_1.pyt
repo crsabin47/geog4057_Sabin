@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 
 import arcpy
 
@@ -15,7 +15,7 @@ class Tool:
     def __init__(self):
         """Define the tool (tool name is the name of the class)."""
         self.label = "Project1tool"
-        self.description = "Description of your tool"  # Provide a description
+        self.description = "Create a shape from JSON"
 
     def getParameterInfo(self):
         """Define the tool parameters."""
